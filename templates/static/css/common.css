@@ -191,6 +191,39 @@
     border-bottom:none;
   }
 
+  ol.bread {
+    border:none;
+    background:none;
+    padding:0;
+  }
+  .bread li {
+    display:inline-block;
+    list-style-type:none;
+    font-size:14px;
+    margin:0;
+  }
+  .bread a {
+    width:100%;
+    background:#3cb371;
+    color:white;
+    border-radius:3px;
+    text-decoration:none;
+    height:30px;
+    display:block;
+    padding:3px 5px;
+  }
+  .bread a:hover {
+    background:#4cc381;
+  }
+  .bread a:visited {
+    color:white;
+  }
+  
+  .bread img {
+    width:25px;
+    vertical-align:-3px;
+  }
+
 /* Tablet and Smart phone */
 @media only screen and (max-width:960px) {
   .content {
