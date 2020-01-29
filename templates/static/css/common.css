@@ -234,15 +234,18 @@
 /* Tablet and Smart phone */
 @media only screen and (max-width:960px) {
   .content {
-    float:none;
-    width:97%;
-    margin:0 auto;
-    margin-bottom:15px;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:auto;
+    overflow:visible;
   }
   .side {
-    float:none;
-    width:97%;
-    margin:0 auto;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:auto;
+    overflow:visible;
   }
   .hide-smartphone {
     display:none;
