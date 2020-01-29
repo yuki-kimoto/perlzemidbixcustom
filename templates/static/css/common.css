@@ -53,8 +53,9 @@
     width:calc(100% - 270px - 20px);
     height:calc(100vh - 70px - 53px);
     overflow:auto;
-    padding-top:18px;
-    padding-right:15px;
+    padding-top:5px;
+    padding-right:30px;
+    padding-bottom:50px;
   }
   
   /* entry */
@@ -71,8 +72,10 @@
   .side {
     float:left;
     width:270px;
-    padding-top:16px;
-    padding-left:15px;
+    padding-top:20px;
+    padding-left:30px;
+    height:calc(100vh - 70px - 53px);
+    overflow:auto;
   }
   
   /* tags */
@@ -92,7 +95,7 @@
   }
   h2 {
     font-size:27px;
-    margin:12px 0;
+    margin:2px 0 12px 0;
     padding:1px 0 0px 20px;
     letter-spacing:0.5px;
     border-left:8px solid #0070C0;
@@ -121,7 +124,7 @@
   p {
     font-size:16px;
     color:#111;
-    margin:10px 0;
+    margin:15px 0;
     line-height:1.5;
   }
   pre {
@@ -131,7 +134,7 @@
     border-radius:5px;
     padding:10px 15px;
     margin:10px 0;
-    line-height:1.5;
+    line-height:1.2;
     white-space:pre-wrap;
   }
   blockquote {
