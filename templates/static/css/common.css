@@ -196,6 +196,9 @@
   .side-list li:last-child {
     border-bottom:1px solid #D0D0DA;
   }
+  .side-list li:first-child {
+    border-top:none;
+  }
 
   ol.bread {
     border:none;
@@ -258,5 +261,12 @@
     width:calc(100% - 20px);
     margin-left:auto;
     margin-right:auto;
+  }
+  .side-list li {
+    border-left:none;
+    border-right:none;
+  }
+  .side-list li:last-child {
+    border-bottom:none;
   }
 }
