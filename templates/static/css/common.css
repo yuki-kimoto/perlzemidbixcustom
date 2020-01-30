@@ -31,6 +31,7 @@
     padding:15px 0;
     border-top:1px solid #ccc;
     height:53px;
+    margin-top:15px;
   }
   .footer a, .footer a:visited {
     color:white;
@@ -59,7 +60,6 @@
     width:calc(100% - 270px - 20px);
     padding-top:5px;
     padding-right:30px;
-    padding-bottom:55px;
   }
   
   /* entry */
