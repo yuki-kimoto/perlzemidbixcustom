@@ -21,7 +21,7 @@
     margin:0 auto;
     background:#fff;
     border-bottom:1px solid #D9D9D0;
-    height:70px;
+    height:50px;
   }
   
   /* footer */
@@ -45,7 +45,7 @@
   .main {
     width:100%;
     margin: 0 auto;
-    padding-top:70px;
+    padding-top:50px;
   }
   .main:after {
     content:"";
@@ -76,7 +76,7 @@
   .side {
     float:left;
     width:270px;
-    padding-top:20px;
+    padding-top:12px;
     padding-left:30px;
   }
   
@@ -84,10 +84,10 @@
   h1 {
     max-width:1020px;
     width:100%;
-    font-size:28px;
-    padding:16px 10px 0 73px;
-    background:url(/images/dbix_custom_logo.png) no-repeat 18px 8px;
-    background-size:48px;
+    font-size:26px;
+    padding:6px 10px 0 70px;
+    background:url(/images/dbix_custom_logo.png) no-repeat 18px 3px;
+    background-size:41px;
     height:100%;
   }
   h1 a, h1 a:visited {
@@ -181,7 +181,7 @@
     background:#0070C0;
     color:white;
     font-weight:bold;
-    padding: 12px 0px 10px 0px;
+    padding: 11px 0px 9px 0px;
     text-align:center;
     border:1px solid #0070C0;
     border-bottom:none;
