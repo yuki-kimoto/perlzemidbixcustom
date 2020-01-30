@@ -21,7 +21,7 @@
     margin:0 auto;
     background:#fff;
     border-bottom:1px solid #D9D9D0;
-    height:50px;
+    height:55px;
   }
   
   /* footer */
@@ -45,7 +45,7 @@
   .main {
     width:100%;
     margin: 0 auto;
-    padding-top:50px;
+    padding-top:55px;
   }
   .main:after {
     content:"";
@@ -59,7 +59,7 @@
     width:calc(100% - 270px - 20px);
     padding-top:5px;
     padding-right:30px;
-    padding-bottom:50px;
+    padding-bottom:55px;
   }
   
   /* entry */
@@ -85,9 +85,9 @@
     max-width:1020px;
     width:100%;
     font-size:26px;
-    padding:6px 10px 0 70px;
-    background:url(/images/dbix_custom_logo.png) no-repeat 18px 3px;
-    background-size:41px;
+    padding:9px 10px 0 78px;
+    background:url(/images/dbix_custom_logo.png) no-repeat 30px 3px;
+    background-size:43px;
     height:100%;
   }
   h1 a, h1 a:visited {
@@ -111,7 +111,7 @@
     padding:16px 0px 15px 18px;
     letter-spacing:0.5px;
     margin:15px 0 10px 0;
-    background:#F5F5F9;
+    background:#F3F3Fa;
     margin-top:40px;
     color:#3c3c33;
   }
@@ -289,4 +289,12 @@
   .side-list li:last-child {
     border-bottom:none;
   }
+  /* tags */
+  h1 {
+    padding-left:60px;
+    background-position:10px 5px;
+    background-size:41px;
+    height:100%;
+  }
+
 }
