@@ -1,23 +1,14 @@
-<ol class="bread" itemscope itemtype="http://schema.org/BreadcrumbList">
-  <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-    <a itemprop="item" href="/">
-      <img src="/images/home_icon.png" title="DBIx::Custom">
-    </a>
-    <meta itemprop="position" content="1" />
-  </li>
-  &#8250;
-  <li>
-    here
-  </li>
-</ol>
-
 <h2>DBIx::Customのインストール</h2>
 
-DBIx::Customをインストールにはcpanコマンドを使用します。
-
+DBIx::Customをインストールにはcpanmあるいは、cpanコマンドを使用します。
 <pre>
+# cpanm
+cpanm DBIx::Custom
+
+# cpan
 cpan DBIx::Custom
 </pre>
 
-WindowsでもUnix系のOSでもインストールすることができます。cpanコマンドではルート権限がないインストールを行うことができませんので、ユーザーのローカル環境にインストールしたい場合はcpanmなどのツールを使用してください。
+<a href="https://tutorial.perlzemi.com/blog/20110220130464.html">perlbrew</a>や<a href="https://tutorial.perlzemi.com/blog/20180816153437.html">plenv</a>のインストールのときに<a href="https://tutorial.perlzemi.com/blog/20101027127859.html">cpanm</a>をインストールした場合はcpanmを使います。
 
+<a href="https://tutorial.perlzemi.com/blog/20180808153368.html">Strawberry Perl</a>や<a href="https://tutorial.perlzemi.com/blog/20080602121231.html">Active Perl</a>、<a href="https://tutorial.perlzemi.com/blog/20180806153350.html">msys2</a>でPerlをインストールした場合は<a href="https://tutorial.perlzemi.com/blog/20100504127089.html">cpan</a>を使いましょう。
