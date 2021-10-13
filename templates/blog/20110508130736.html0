@@ -1,0 +1,14 @@
+<h2>DBIx::Customのインストール</h2>
+
+DBIx::Customをインストールにはcpanmあるいは、cpanコマンドを使用します。
+<pre>
+# cpanm
+cpanm DBIx::Custom
+
+# cpan
+cpan DBIx::Custom
+</pre>
+
+<a href="https://perlzemi.com/blog/20110220130464.html">perlbrew</a>や<a href="https://perlzemi.com/blog/20180816153437.html">plenv</a>のインストールのときに<a href="https://perlzemi.com/blog/20101027127859.html">cpanm</a>をインストールした場合はcpanmを使います。
+
+<a href="https://perlzemi.com/blog/20180808153368.html">Strawberry Perl</a>や<a href="https://perlzemi.com/blog/20080602121231.html">Active Perl</a>、<a href="https://perlzemi.com/blog/20180806153350.html">msys2</a>でPerlをインストールした場合は<a href="https://perlzemi.com/blog/20100504127089.html">cpan</a>を使いましょう。
